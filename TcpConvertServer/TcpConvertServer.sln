@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpConvertServer", "TcpConvertServer\TcpConvertServer.csproj", "{1C6584BB-13E0-4BF6-94F3-C4B23C0E1D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C6584BB-13E0-4BF6-94F3-C4B23C0E1D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6584BB-13E0-4BF6-94F3-C4B23C0E1D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6584BB-13E0-4BF6-94F3-C4B23C0E1D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6584BB-13E0-4BF6-94F3-C4B23C0E1D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31AE3B19-AEDD-49FC-818A-6224293C7D32}
+	EndGlobalSection
+EndGlobal
