@@ -9,10 +9,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="assignment1WeightConverter">
-      <HintPath>..\..\assignment1WeightConverter\assignment1WeightConverter\bin\Debug\netcoreapp2.1\assignment1WeightConverter.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
