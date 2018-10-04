@@ -6,8 +6,9 @@ using System.Net.Sockets;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using assignment1WeightConverter;
+
 using Newtonsoft.Json;
+using WeightLib;
 
 namespace TcpConvertServer
 {/// <summary>
@@ -40,14 +41,14 @@ namespace TcpConvertServer
                 if (incomingString.Contains("ToGram"))
                 {
                     Console.WriteLine("convert to gram request recieved");
-                    result = WeightConverter.OuncesToGrams(_weight);
-                    resultDec = decimal.Parse(Math.Round(result, 2).ToString());
+                    result = Converter.OuncesToGrams(_weight);
+                    resultDec = (decimal)(Math.Round(result, 2));
                     sw.WriteLine(resultDec);
                 } 
                 else if (incomingString.Contains("ToOunces"))
                 {
-                  result = WeightConverter.GramsToOunces(_weight);
-                   resultDec = decimal.Parse(Math.Round(result, 2).ToString());
+                  result = Converter.GramsToOunces(_weight);
+                   resultDec = (decimal)(Math.Round(result, 2));
                     sw.WriteLine(resultDec);
                 }
                 sw.Flush();

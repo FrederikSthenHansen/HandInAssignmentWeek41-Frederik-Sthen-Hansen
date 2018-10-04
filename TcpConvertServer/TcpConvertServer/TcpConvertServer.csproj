@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="assignment1WeightConverter">
-      <HintPath>..\..\assignment1WeightConverter\assignment1WeightConverter\bin\Debug\netcoreapp2.1\assignment1WeightConverter.dll</HintPath>
+    <Reference Include="WeightLib">
+      <HintPath>..\..\WeightConverter\WeightLib\bin\Debug\netcoreapp2.1\WeightLib.dll</HintPath>
     </Reference>
   </ItemGroup>
 
