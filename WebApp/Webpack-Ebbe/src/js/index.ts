@@ -8,7 +8,7 @@ let g2oButton: HTMLButtonElement= <HTMLButtonElement> document.getElementById("g
 let O2GButton: HTMLButtonElement= <HTMLButtonElement> document.getElementById("o2g")
 let resultLine: HTMLDivElement= <HTMLDivElement> document.getElementById("resultLine");
 
-g2oButton.addEventListener ("click", G2OButtonMethod ); //hvordan får jeg resultline til at vise resultatet af GramToOunces?
+g2oButton.addEventListener ("click", G2OButtonMethod ); 
 O2GButton.addEventListener("click", O2GButtonMethod);
 
 
